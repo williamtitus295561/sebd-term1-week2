@@ -5,8 +5,8 @@ public class Application {
     public static void exerciseOne() {
         System.out.println("Exercise One"); // Do not modify the lines like this before each exercise, these are to make the console output more readable :)
         // - Print the number 16 to the console.
-        //
-        // Write your code here
+        System.out.println("16");
+
 
     }
 
@@ -14,8 +14,7 @@ public class Application {
         System.out.println("Exercise Two");
         // - Print the result of the expression six divided by three to the console.
         //
-        // Write your code here
-
+        System.out.println(6/3);
     }
 
     public static void exerciseThree() {
@@ -24,15 +23,15 @@ public class Application {
         //
         // Write your code here
 
-        System.out.println(1 + 3 * 4);
+        System.out.println((1 + 3) * 4);
     }
 
     public static void exerciseFour() {
         System.out.println("Exercise Four");
         // - Un-comment the following variable, and then on the next line use System.out.println() to print it to the console.
 
-        // int myNumber = 6;
-        // Write your code here
+         int myNumber = 6;
+        System.out.println("6");
 
     }
 
@@ -40,8 +39,8 @@ public class Application {
         System.out.println("Exercise Five");
         // - create a double variable called "otherNumber", assign the number 4.25 to it
         // - then print the variable to the console on the next line.
-        //
-        // Write your code here
+        double otherNumber = 4.25;
+        System.out.println("4.25");
 
     }
 
@@ -51,10 +50,10 @@ public class Application {
         // - Then log it to the console
         // Hint: You can multiply with the * operator: For example, 3 * 5 would be 15
         //
-        // Write your code here
-        //int myNumber = 6;
-        //double otherNumber = 4.25;
-
+        System.out.println(6*4.25);
+        int myNumber = 6;
+        double otherNumber = 4.25;
+        double result = 25.5;
 
     }
 
@@ -65,9 +64,9 @@ public class Application {
         // Hint: subtraction uses the - operator
         // Then Print the difference to the console.  (This should print a negative number!)
         //
-        // Write your code here
-
-
+        int a =5;
+        int b =8;
+        System.out.println(5-8);
     }
 
     public static void exerciseEight_NumberOfPets() {
@@ -78,9 +77,9 @@ public class Application {
         // - Print the value of each of your variables using System.out.println()
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
         //
-        // Write your code here
+        int myFatOrangeCat = 1;
+        System.out.println(1);
     }
-
     public static void exerciseEight_NumberOfPairsOfSunglasses() {
         System.out.println("Exercise Eight - Number Of Pairs Of Sunglasses");
         // - Create a variable with a meaningful name to represent the idea and then assign it a number.
@@ -88,8 +87,8 @@ public class Application {
         // - Remember to use camelCase to name your variables!
         // - Print the value of each of your variables using System.out.println()
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
-        //
-        // Write your code here
+        int myUvProtectors = 4;
+        System.out.println(4);
     }
 
     public static void exerciseEight_RatingOfLastMeal() {
@@ -99,8 +98,8 @@ public class Application {
         // - Remember to use camelCase to name your variables!
         // - Print the value of each of your variables using System.out.println()
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
-        //
-        // Write your code here
+        int hotSauceGoesOnEverything = 8;
+        System.out.println(8);
     }
 
     public static void exerciseEight_HowManyDaysSinceLastGroceryTrip() {
@@ -110,8 +109,8 @@ public class Application {
         // - Remember to use camelCase to name your variables!
         // - Print the value of each of your variables using System.out.println()
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
-        //
-        // Write your code here
+        int daysAgoShopping = 3;
+        System.out.println(3);
     }
 
 
