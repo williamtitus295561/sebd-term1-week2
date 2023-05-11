@@ -3,7 +3,8 @@ package com.kenzie.practicingvariablesnumbers;
 public class Application {
 
     public static void exerciseOne() {
-        System.out.println("Exercise One"); // Do not modify the lines like this before each exercise, these are to make the console output more readable :)
+        System.out.println("Exercise One"); // Do not modify the lines like this before each exercise;
+        // these are to make the console output more readable :)
         // - Print the number 16 to the console.
         System.out.println("16");
 
@@ -31,7 +32,7 @@ public class Application {
         // - Un-comment the following variable, and then on the next line use System.out.println() to print it to the console.
 
          int myNumber = 6;
-        System.out.println("6");
+        System.out.println(myNumber);
 
     }
 
@@ -40,7 +41,7 @@ public class Application {
         // - create a double variable called "otherNumber", assign the number 4.25 to it
         // - then print the variable to the console on the next line.
         double otherNumber = 4.25;
-        System.out.println("4.25");
+        System.out.println(otherNumber);
 
     }
 
@@ -50,10 +51,12 @@ public class Application {
         // - Then log it to the console
         // Hint: You can multiply with the * operator: For example, 3 * 5 would be 15
         //
-        System.out.println(6*4.25);
+
         int myNumber = 6;
         double otherNumber = 4.25;
-        double result = 25.5;
+        double result = myNumber * otherNumber;
+
+        System.out.println(result);
 
     }
 
@@ -66,7 +69,7 @@ public class Application {
         //
         int a =5;
         int b =8;
-        System.out.println(5-8);
+        System.out.println(a-b);
     }
 
     public static void exerciseEight_NumberOfPets() {
@@ -74,21 +77,21 @@ public class Application {
         // - Create a variable with a meaningful name to represent the idea and then assign it a number.
         // - * The number of pets you have
         // - Remember to use camelCase to name your variables!
-        // - Print the value of each of your variables using System.out.println()
-        // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
+        // - Print the value each of your variables using System.out.println()
+        // Hint: One popular way to name a variable representing much something is to name it like "numHats" or "numEggsInFridge"
         //
         int myFatOrangeCat = 1;
-        System.out.println(1);
+        System.out.println(myFatOrangeCat);
     }
     public static void exerciseEight_NumberOfPairsOfSunglasses() {
         System.out.println("Exercise Eight - Number Of Pairs Of Sunglasses");
         // - Create a variable with a meaningful name to represent the idea and then assign it a number.
         // - * The number of pairs of sunglasses you own
         // - Remember to use camelCase to name your variables!
-        // - Print the value of each of your variables using System.out.println()
-        // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
+        // - Print the value each of your variables using System.out.println()
+        // Hint: One popular way to name a variable representing much something is to name it like "numHats" or "numEggsInFridge"
         int myUvProtectors = 4;
-        System.out.println(4);
+        System.out.println(myUvProtectors);
     }
 
     public static void exerciseEight_RatingOfLastMeal() {
@@ -96,10 +99,10 @@ public class Application {
         // - Create a variable with a meaningful name to represent the idea and then assign it a number.
         // - * The rating from 1-10 you would give to the last meal you ate.
         // - Remember to use camelCase to name your variables!
-        // - Print the value of each of your variables using System.out.println()
-        // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
+        // - Print the value each of your variables using System.out.println()
+        // Hint: One popular way to name a variable representing much something is to name it like "numHats" or "numEggsInFridge"
         int hotSauceGoesOnEverything = 8;
-        System.out.println(8);
+        System.out.println(hotSauceGoesOnEverything);
     }
 
     public static void exerciseEight_HowManyDaysSinceLastGroceryTrip() {
@@ -107,18 +110,16 @@ public class Application {
         // - Create a variable with a meaningful name to represent the idea and then assign it a number.
         // - * How many days it has been since you last went to the grocery store.
         // - Remember to use camelCase to name your variables!
-        // - Print the value of each of your variables using System.out.println()
-        // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
+        // - Print the value each of your variables using System.out.println()
+        // Hint: One popular way to name a variable representing much something is to name it like "numHats" or "numEggsInFridge"
         int daysAgoShopping = 3;
-        System.out.println(3);
+        System.out.println(daysAgoShopping);
     }
 
 
     public static void main(String[] args) {
 
-        /*************************/
         /* Variables and Numbers */
-        /*************************/
 
         // ----------------------------------------------------------------------------------------------
         exerciseOne();

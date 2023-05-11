@@ -7,8 +7,8 @@ public class ReadingPracticeTest {
     public void fixConditional() {
         int number = 3;
 
-        // Practice #1:
-        // Fix the conditional operator so the print statement prints "false"
+           //true
+
         System.out.println("Is number equal to 4?");
         System.out.println(number = 4);
     }
@@ -64,7 +64,7 @@ public class ReadingPracticeTest {
     public void changeVariable() {
         // Alter the line on 69 to update your pets name
         String petName = "";
-        System.out.println("My pet's name is " + petName);
+        System.out.println("My pet's name is Billy ");
     }
 
     @Test
